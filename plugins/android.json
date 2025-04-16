@@ -1,0 +1,34 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "com.espeakers.eventcx"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.espeakers.eventcx"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.espeakers.eventcx"
+    },
+    "cordova-plugin-ionic-webview": {
+      "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
+      "PACKAGE_NAME": "com.espeakers.eventcx"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.espeakers.eventcx"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.espeakers.eventcx"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.espeakers.eventcx"
+    }
+  },
+  "dependent_plugins": {}
+}

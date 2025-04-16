@@ -1,0 +1,1587 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mobile-3.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: enums/VIEWS:31
+msgid "Details"
+msgstr ""
+
+#: enums/VIEWS:29 views/ContactsView:215
+msgid "Contacts"
+msgstr ""
+
+#: enums/VIEWS:39 views/ContactView:92
+msgid "Contact"
+msgstr ""
+
+#: enums/VIEWS:34 forms/ServicesForm:381
+msgid "Services"
+msgstr ""
+
+#: enums/VIEWS:32 views/LibraryView:161
+msgid "Library"
+msgstr ""
+
+#: enums/VIEWS:33 forms/MiscForm:359
+msgid "Misc"
+msgstr ""
+
+#: enums/VIEWS:30
+msgid "Custom"
+msgstr ""
+
+#: enums/VIEWS:21
+msgid "Calendar"
+msgstr ""
+
+#: enums/VIEWS:22
+msgid "Dashboard"
+msgstr ""
+
+#: enums/VIEWS:23 forms/LoginForm:108
+msgid "Login"
+msgstr ""
+
+#: enums/VIEWS:24
+msgid "New Event"
+msgstr ""
+
+#: enums/VIEWS:25 views/DashboardView:378 forms/SearchForm:75
+msgid "Search"
+msgstr ""
+
+#: enums/VIEWS:26
+msgid "Settings"
+msgstr ""
+
+#: views/DashboardView:442 enums/VIEWS:35
+msgid "Action List"
+msgstr ""
+
+msgid "Actions List"
+msgstr ""
+
+#: enums/VIEWS:40 forms/EmailCoworkersForms:142 forms/EmailCoworkersForms:143
+msgid "Note"
+msgstr ""
+
+#: enums/VIEWS:41
+msgid "Email to Co-workers"
+msgstr ""
+
+#: enums/VIEWS:42
+msgid "Forgot Password"
+msgstr ""
+
+#: enums/VIEWS:43 views/ProductView:89 forms/MiscForm
+msgid "Product"
+msgstr ""
+
+#: enums/VIEWS:44 views/ServiceView:94
+msgid "Service"
+msgstr ""
+
+#: enums/VIEWS:45
+msgid "Stage Time"
+msgstr ""
+
+#: enums/VIEWS:46 views/TodoView:113
+msgid "Action"
+msgstr ""
+
+#: components/Header:201
+msgid "Switch Speaker"
+msgstr ""
+
+#: components/LinkCollapseArea:119
+msgid "Advanced Options"
+msgstr ""
+
+#: components/SpeakerSelector:190 components/cards/HeaderCard:247
+msgid "Select Speaker"
+msgstr ""
+
+#: components/SpeakerSelector:191 components/cards/HeaderCard:248
+#: components/dialogs/CalendarLegendDialog:101 components/mbsc/MBSCWidget:140
+#: forms/inputs/MBSCDateTime:95
+msgid "cancel"
+msgstr ""
+
+#: forms/inputs/MBSCDateTime:91
+msgid "clear"
+msgstr ""
+
+msgid "-- Clear Selection --"
+msgstr ""
+
+#: components/SpeakerSelector:191 components/cards/HeaderCard:248
+#: components/mbsc/MBSCWidget:140 forms/inputs/MBSCDateTime:90
+msgid "set"
+msgstr ""
+
+msgid "GO"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Take Me"
+msgstr ""
+
+#: components/cards/NoteCard:92
+msgid "SYSTEM"
+msgstr ""
+
+#: components/cards/ProductCard:96
+msgid "Sold: %1$s"
+msgstr ""
+
+#: components/cards/ProductCard:101
+msgid "Shipped: %1$s"
+msgstr ""
+
+#: components/cards/ServiceCard:80
+msgid "Due: %1$s"
+msgstr ""
+
+#: components/cards/ServiceCard:90 components/cards/ServiceCard:94
+#: forms/ServiceForm:121
+msgid "Actual"
+msgstr ""
+
+#: components/cards/ServiceCard:102 components/cards/ServiceCard:106
+#: forms/ServiceForm:116
+msgid "Free"
+msgstr ""
+
+#: components/cards/StageTimeCard:123
+msgid "Room: %1$s"
+msgstr ""
+
+#: components/cards/StageTimeCard:136
+msgid "A/V: %1$s"
+msgstr ""
+
+#: components/cards/TodoListCard:136
+msgid "%1$s - %2$s"
+msgstr ""
+
+#: components/cards/ActivityCard
+msgid "became %1$s on %2$s"
+msgstr ""
+
+#: components/cards/TotalCard:82
+msgid "Total"
+msgstr ""
+
+#: components/cards/TravelFlightCard:77
+msgid "From: %1$s"
+msgstr ""
+
+#: components/cards/TravelFlightCard:82
+msgid "To: %1$s"
+msgstr ""
+
+#: components/cards/TravelFlightCard:87
+msgid "Carrier: %1$s"
+msgstr ""
+
+#: components/cards/TravelFlightCard:92
+msgid "Cost: %1$s"
+msgstr ""
+
+#: components/cards/TravelFlightCard:97
+msgid "Flight: %1$s"
+msgstr ""
+
+#: components/cards/TravelFlightCard:102
+msgid "Seat: %1$s"
+msgstr ""
+
+#: components/cards/TravelFlightCard:107
+msgid "Ticket: %1$s"
+msgstr ""
+
+#: components/cards/TravelFlightCard:154
+msgid "%1$s Departure"
+msgstr ""
+
+#: components/cards/TravelFlightCard:163
+msgid "%1$s Arrival"
+msgstr ""
+
+#: components/cards/TravelGroundCard:70
+msgid "Mode: %1$s"
+msgstr ""
+
+#: components/cards/TravelGroundCard:75
+msgid "Conf #: %1$s"
+msgstr ""
+
+#: components/cards/TravelGroundCard:80
+msgid "Pick-up Inst: %1$s"
+msgstr ""
+
+#: components/cards/TravelGroundCard:88
+msgid "Payment: %1$s"
+msgstr ""
+
+#: components/cards/TravelHotelCard:108
+msgid "Check-out: %1$s"
+msgstr ""
+
+#: components/cards/TravelHotelCard:113
+msgid "Check-in: %1$s"
+msgstr ""
+
+#: components/cards/TravelHotelCard:118
+msgid "Confirmation #: %1$s"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog:100 views/CalendarView:453
+msgid "Calendar Legend"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog:108 views/DashboardView:422
+msgid "Confirmed"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog:112 views/DashboardView:427
+msgid "Held"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog:116
+msgid "Lead"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog:120
+msgid "Postponed"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog:124
+msgid "Closed"
+msgstr ""
+
+msgid "Call"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Daily Events"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Legend"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog:128 enums/VIEWS:36
+msgid "Travel"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog
+msgid "Travel - Flight"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog
+msgid "Travel - Ground"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog:132
+msgid "Daily Calendar"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog:136
+msgid "Conference Call"
+msgstr ""
+
+#: components/dialogs/CalendarLegendDialog
+msgid "Coaching"
+msgstr ""
+
+#: components/dialogs/ContinueCancelDialog:123
+msgid "Continue"
+msgstr ""
+
+#: components/dialogs/ContinueCancelDialog:129
+#: components/dialogs/CopyEventConfirmationDialog:201
+#: forms/ForgotPasswordForm:127 forms/MBSCButtonGroup:67
+msgid "Cancel"
+msgstr ""
+
+msgid "Duplicate Event"
+msgstr ""
+
+#: components/dialogs/CopyEventConfirmationDialog:195
+msgid "Copy"
+msgstr ""
+
+#: components/dialogs/CopyEventConfirmationDialog:211
+msgid "Copy Lists"
+msgstr ""
+
+#: components/dialogs/CopyEventConfirmationDialog:212
+msgid "(services, contacts, actions, etc...)"
+msgstr ""
+
+#: components/dialogs/DeleteConfirmationDialog:88
+msgid "DELETE"
+msgstr ""
+
+#: components/dialogs/DeleteConfirmationDialog:89
+msgid "CANCEL"
+msgstr ""
+
+#: components/dialogs/DeleteConfirmationDialog:91
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: components/dialogs/ExitDirtyConfirmationDialog:88
+msgid "Lose Changes"
+msgstr ""
+
+#: components/dialogs/ExitDirtyConfirmationDialog:89
+msgid "STAY"
+msgstr ""
+
+#: components/dialogs/ExitDirtyConfirmationDialog:91
+msgid "By leaving this screen you will discard all changes.  Continue?"
+msgstr ""
+
+#: components/dialogs/UndoConfirmationDialog:91
+msgid "Are you sure you want to discard all changes?"
+msgstr ""
+
+#: forms/AddNoteForm:106
+msgid "Enter a note about this event"
+msgstr ""
+
+#: forms/ContactForm:71 forms/ContactForm:72 mixins/VenueMixin:142
+#: mixins/VenueMixin:144
+msgid "Name"
+msgstr ""
+
+#: forms/ContactForm:77 forms/ContactForm:78
+msgid "Company"
+msgstr ""
+
+#: forms/ContactForm:84 forms/ContactForm:85
+msgid "Title"
+msgstr ""
+
+#: forms/ContactForm:90 forms/ContactForm:91 mixins/VenueMixin:157
+#: mixins/VenueMixin:159
+msgid "Phone"
+msgstr ""
+
+#: forms/ContactForm:97 forms/ContactForm:98
+msgid "Mobile"
+msgstr ""
+
+#: forms/ContactForm:104 forms/ContactForm:105 mixins/VenueMixin:164
+#: mixins/VenueMixin:166
+msgid "Fax"
+msgstr ""
+
+#: forms/ContactForm:111 forms/ContactForm:112 forms/ForgotPasswordForm:106
+msgid "Email"
+msgstr ""
+
+#: forms/ContactForm:118 forms/ContactForm:119 forms/ContactsForm:158
+#: forms/TravelForm:180 views/DetailsView:372
+msgid "Notes"
+msgstr ""
+
+msgid "Tap the Add button below to create a new %1$s."
+msgstr ""
+
+#: forms/ContactForm:125 forms/ContactForm:126
+msgid "Group Code"
+msgstr ""
+
+#: mixins/FormHelperMixin:272
+msgid "Add"
+msgstr ""
+
+#: forms/ServicesForm:410 forms/ServicesForm:488
+#: forms/TodoListForm:345 views/ContactsView:242
+#: views/DetailsView:332 views/DetailsView:414
+msgid "Edit"
+msgstr ""
+
+msgid "Expand"
+msgstr ""
+
+msgid "Collapse"
+msgstr ""
+
+#: forms/ContactForm:243
+msgid "%1$s Contact"
+msgstr ""
+
+#: forms/ContactForm:251 mixins/AddressMixin:117
+msgid "Address"
+msgstr ""
+
+#: forms/ContactsForm:106 forms/ContactsForm:107
+msgid "Date"
+msgstr ""
+
+#: forms/ContactsForm:118 forms/ContactsForm:119
+msgid "Time"
+msgstr ""
+
+#: forms/ContactsForm:125 mixins/VenueMixin:149
+msgid "Timezone"
+msgstr ""
+
+#: forms/ContactsForm:127 mixins/VenueMixin:151
+msgid "-- local time --"
+msgstr ""
+
+#: forms/ContactsForm:136 forms/ContactsForm:137
+msgid "Call Initiated By"
+msgstr ""
+
+#: forms/ContactsForm:140
+msgid "In Person"
+msgstr ""
+
+#: forms/ContactsForm:144
+msgid "They Call Us"
+msgstr ""
+
+#: forms/ContactsForm:148
+msgid "We Call Them"
+msgstr ""
+
+#: forms/ContactsForm:159
+msgid "Add Notes"
+msgstr ""
+
+#: forms/ContactsForm:289
+msgid "Client Call"
+msgstr ""
+
+#: forms/ContactsForm:298
+msgid "Add Contacts"
+msgstr ""
+
+#: forms/CustomForm:247
+msgid "Short Fields"
+msgstr ""
+
+#: forms/CustomForm:254
+msgid "Long Fields"
+msgstr ""
+
+msgid "Custom Fields"
+msgstr ""
+
+#: forms/DetailsForms:121 forms/DetailsForms:122 forms/DetailsForms:386
+msgid "Bureau"
+msgstr ""
+
+msgid "PD Rep"
+msgstr ""
+
+msgid "Staff"
+msgstr ""
+
+#: forms/DetailsForms:129 forms/DetailsForms:130
+msgid "Bureau Notes"
+msgstr ""
+
+msgid "Sales Rep"
+msgstr ""
+
+msgid "Event Closed"
+msgstr ""
+
+msgid "Virtual Coaching"
+msgstr ""
+
+#: forms/DetailsForms:152 forms/DetailsForms:153
+msgid "Presenting to"
+msgstr ""
+
+#: forms/DetailsForms:160 forms/DetailsForms:161
+msgid "Event Reason"
+msgstr ""
+
+#: forms/DetailsForms:167 forms/DetailsForms:168
+msgid "Status"
+msgstr ""
+
+#: forms/DetailsForms:178
+msgid "Only PRO users can have '%1$s' events"
+msgstr ""
+
+#: forms/DetailsForms:187
+msgid "Personal/Blackout"
+msgstr ""
+
+#: forms/DetailsForms:192 forms/DetailsForms:194
+msgid "Event Type"
+msgstr ""
+
+msgid "Delivery Method"
+msgstr ""
+
+#: forms/DetailsForms:197
+msgid "not set"
+msgstr ""
+
+#: forms/DetailsForms:201
+msgid "on-site"
+msgstr ""
+
+#: forms/DetailsForms:205
+msgid "phone"
+msgstr ""
+
+#: forms/DetailsForms:209
+msgid "video/web"
+msgstr ""
+
+#: forms/DetailsForms:217 forms/DetailsForms:218
+msgid "Arrival Notes"
+msgstr ""
+
+msgid "Schedule Notes"
+msgstr ""
+
+#: forms/DetailsForms:240
+msgid "None -- Direct"
+msgstr ""
+
+#: forms/DetailsForms:378
+msgid "Event Details"
+msgstr ""
+
+#: forms/DetailsForms:394
+msgid "Add Stage Time"
+msgstr ""
+
+#: forms/DetailsForms:403
+msgid "Add Note"
+msgstr ""
+
+#: forms/EmailCoworkersForm:132 forms/EmailCoworkersForm:133
+msgid "Subject"
+msgstr ""
+
+#: forms/EmailCoworkersForm:156
+msgid "Event for %1$s"
+msgstr ""
+
+#: forms/EmailCoworkersForm:172
+msgid " on %1$s"
+msgstr ""
+
+#: forms/ForgotPasswordForm:124
+msgid "Send Email"
+msgstr ""
+
+#: forms/LibraryForm:74
+msgid "Example File"
+msgstr ""
+
+#: forms/LibraryForm:93
+msgid "View Placeholder Codes"
+msgstr ""
+
+#: forms/LibraryForm:98
+msgid "Example Template"
+msgstr ""
+
+#: forms/LibraryForm:163
+msgid "Attached Files"
+msgstr ""
+
+#: forms/LibraryForm:170
+msgid "Attach File"
+msgstr ""
+
+#: forms/LibraryForm:175
+msgid "Uploaded Files"
+msgstr ""
+
+#: forms/LibraryForm:181
+msgid "Template Library"
+msgstr ""
+
+#: forms/LibraryForm:190
+msgid "Add Template"
+msgstr ""
+
+#: forms/LoginForm:76
+msgid "Username"
+msgstr ""
+
+#: forms/LoginForm:83
+msgid "Password"
+msgstr ""
+
+#: forms/MBSCButtonGroup:61
+msgid "Save"
+msgstr ""
+
+#: forms/MBSCButtonGroup:73 forms/ServicesForm:419 forms/ServicesForm:497
+#: forms/TodoListForm:354 views/ContactsView:251 views/DetailsView:341
+#: views/TodoView:180
+msgid "Delete"
+msgstr ""
+
+#: forms/MBSCButtonGroup:79 mixins/EventMixin:157
+msgid "Discard Changes"
+msgstr ""
+
+#: forms/MiscForm:85
+msgid "For CSP"
+msgstr ""
+
+#: forms/MiscForm:91 forms/MiscForm:92
+msgid "CSP Division"
+msgstr ""
+
+#: forms/MiscForm:109 forms/MiscForm:110
+msgid "Presentation"
+msgstr ""
+
+#: forms/MiscForm:117 forms/MiscForm:118
+msgid "Dress"
+msgstr ""
+
+#: forms/MiscForm:125 forms/MiscForm:126
+msgid "Audience Size"
+msgstr ""
+
+#: forms/MiscForm:132 forms/MiscForm:133
+msgid "Lead Source"
+msgstr ""
+
+#: forms/MiscForm:139
+msgid "Public Invited"
+msgstr ""
+
+#: forms/MiscForm:144
+msgid "Offer Pending"
+msgstr ""
+
+#: forms/MiscForm:366
+msgid "CSP"
+msgstr ""
+
+#: forms/MiscForm:374
+msgid "Stories / Jokes Told"
+msgstr ""
+
+#: forms/MiscForm:67 forms/MiscForm:68 forms/ServiceForm:74
+#: forms/ServiceForm:75
+msgid "Code"
+msgstr ""
+
+#: forms/MiscForm:75 forms/MiscForm:76 forms/ServiceForm:92
+#: forms/ServiceForm:93 forms/StageTimeForm:131 forms/StageTimeForm:132
+#: forms/TodoForm:69 forms/TodoForm:70
+msgid "Description"
+msgstr ""
+
+#: forms/MiscForm:82 forms/MiscForm:83
+msgid "Number Sold"
+msgstr ""
+
+#: forms/MiscForm:90 forms/MiscForm:91
+msgid "Number Shipped"
+msgstr ""
+
+#: forms/MiscForm:98 forms/MiscForm:99
+msgid "Price"
+msgstr ""
+
+#: forms/MiscForm:221
+msgid "%1$s Product"
+msgstr ""
+
+#: forms/MiscForm
+msgid "Specific Content Areas"
+msgstr ""
+
+#: forms/MiscForm
+msgid "Author"
+msgstr ""
+
+#: forms/MiscForm
+msgid "Presn. Category"
+msgstr ""
+
+#: forms/MiscForm
+msgid "NCSID"
+msgstr ""
+
+#: forms/MiscForm
+msgid "Temporary Date"
+msgstr ""
+
+#: forms/MiscForm
+msgid "Ignore Product"
+msgstr ""
+
+msgid "%1$s Service"
+msgstr ""
+
+#: forms/SearchForm:93
+msgid "Deep Search"
+msgstr ""
+
+#: forms/SearchForm:98
+msgid "Include Canceled"
+msgstr ""
+
+#: forms/SearchForm:103
+msgid "Only Dateless Events"
+msgstr ""
+
+#: forms/SearchForm:108
+msgid "Marketplace Only"
+msgstr ""
+
+msgid "Future Only"
+msgstr ""
+
+#: forms/ServiceForm:81 forms/ServiceForm:82
+msgid "Due Date"
+msgstr ""
+
+#: forms/ServiceForm:99 forms/ServiceForm:100 forms/ServiceForm:296
+msgid "Amount"
+msgstr ""
+
+#: forms/ServiceForm:111
+msgid "Specified"
+msgstr ""
+
+#: forms/ServiceForm:112
+msgid "Use the amount specified above."
+msgstr ""
+
+#: forms/ServiceForm:117
+msgid "You can choose Free to indicate there is no charge for this item"
+msgstr ""
+
+#: forms/ServiceForm:122
+msgid ""
+"You can choose Actual Cost to indicate you will provide the amount later"
+msgstr ""
+
+#: forms/ServiceForm:289
+msgid "$1$s Service"
+msgstr ""
+
+#: forms/ServicesForm:130
+msgid "Deposit Percent"
+msgstr ""
+
+#: forms/ServicesForm:132
+msgid "Dep %"
+msgstr ""
+
+#: forms/ServicesForm:150 forms/ServicesForm:151
+msgid "Qty Boxes"
+msgstr ""
+
+#: forms/ServicesForm:158 forms/ServicesForm:159
+msgid "Shipper"
+msgstr ""
+
+#: forms/ServicesForm:160
+msgid "DHL"
+msgstr ""
+
+#: forms/ServicesForm:160
+msgid "FEDEX"
+msgstr ""
+
+#: forms/ServicesForm:160
+msgid "UPS"
+msgstr ""
+
+#: forms/ServicesForm:160
+msgid "USPS"
+msgstr ""
+
+#: forms/ServicesForm:160
+msgid "carry with"
+msgstr ""
+
+#: forms/ServicesForm:160
+msgid "other"
+msgstr ""
+
+#: forms/ServicesForm:168 forms/ServicesForm:169
+msgid "Tracking Number(s)"
+msgstr ""
+
+#: forms/ServicesForm:459
+msgid "Products"
+msgstr ""
+
+#: forms/ServicesForm:544
+msgid "Qty x Price"
+msgstr ""
+
+#: forms/ServicesForm:549
+msgid "Packages"
+msgstr ""
+
+#: forms/ServicesForm
+msgid "Track My Package(s)"
+msgstr ""
+
+msgid "Track My Package"
+msgstr ""
+
+#: forms/ServicesForm:556
+msgid "Add Service"
+msgstr ""
+
+#: forms/ServicesForm:565
+msgid "Add Product"
+msgstr ""
+
+#: forms/StageTimeform:138 forms/StageTimeform:141
+msgid "A/V Check Date"
+msgstr ""
+
+#: forms/StageTimeform:149 forms/StageTimeform:152
+msgid "A/V Check Time"
+msgstr ""
+
+#: forms/StageTimeform:160 forms/StageTimeform:162
+msgid "Room"
+msgstr ""
+
+#: forms/StageTimeform:166 forms/StageTimeform:301
+msgid "Venue"
+msgstr ""
+
+#: forms/StageTimeform:167
+msgid "-- Add new Venue --"
+msgstr ""
+
+#: forms/StageTimeform:285
+msgid "%1$s Stage Time"
+msgstr ""
+
+#: forms/TodoForm:77 forms/TodoForm:78
+msgid "Due On"
+msgstr ""
+
+#: forms/TodoForm:85 forms/TodoForm:86
+msgid "Assigned To"
+msgstr ""
+
+#: forms/TodoForm:217
+msgid "%1$s Action"
+msgstr ""
+
+#: forms/TodoListForm:104 forms/TodoListForm:105 forms/TodoListForm:326
+msgid "Actions"
+msgstr ""
+
+#: forms/TodoListForm:383
+msgid "Add Action"
+msgstr ""
+
+#: forms/TravelForm:79 forms/TravelForm:80
+msgid "Nearest Airport"
+msgstr ""
+
+#: forms/TravelForm:86 forms/TravelForm:87
+msgid "Travel Agent"
+msgstr ""
+
+#: forms/TravelForm:93 forms/TravelForm:94
+msgid "Travel Notes"
+msgstr ""
+
+#: mixins/AddressMixin:89
+msgid "State"
+msgstr ""
+
+#: mixins/AddressMixin:119
+msgid "Street Address"
+msgstr ""
+
+#: mixins/AddressMixin:123 mixins/AddressMixin:125
+msgid "City"
+msgstr ""
+
+#: mixins/AddressMixin:129
+msgid "State/Prov"
+msgstr ""
+
+#: mixins/AddressMixin:135
+msgid "Postal Code"
+msgstr ""
+
+#: mixins/AddressMixin:137
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: mixins/AddressMixin:141
+msgid "Country"
+msgstr ""
+
+#: mixins/EventMixin:125
+msgid "Are you sure you want to delete this Event?"
+msgstr ""
+
+#: mixins/EventMixin:167
+msgid "Save Changes"
+msgstr ""
+
+#: mixins/EventMixin:185
+msgid "Email Co-Workers"
+msgstr ""
+
+#: mixins/EventMixin:193
+msgid "Copy Event"
+msgstr ""
+
+#: mixins/EventMixin:201
+msgid "Delete Event"
+msgstr ""
+
+#: mixins/FormHelperMixin:193 mixins/FormHelperMixin:194
+msgid "Start Date"
+msgstr ""
+
+#: mixins/FormHelperMixin:205 mixins/FormHelperMixin:206
+msgid "Start Time"
+msgstr ""
+
+#: mixins/FormHelperMixin:214 mixins/FormHelperMixin:215
+msgid "End Date"
+msgstr ""
+
+#: mixins/FormHelperMixin:227 mixins/FormHelperMixin:228
+msgid "End Time"
+msgstr ""
+
+#: mixins/ValidationMixin:19
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: mixins/ValidationMixin:33
+msgid "Please enter a valid time"
+msgstr ""
+
+msgid "End Time must be after Start Time"
+msgstr ""
+
+#: mixins/AuthenticateService:43
+msgid "Failed to Authenticate User"
+msgstr ""
+
+#: mixins/AuthenticateService:58
+msgid "Failed to Retrieve Display Data"
+msgstr ""
+
+#: mixins/AuthenticateService:72
+msgid "Failed to Send Email"
+msgstr ""
+
+#: mixins/CalendarService:46
+msgid "Failed to Load Dashboard Data"
+msgstr ""
+
+#: mixins/CalendarService:67
+msgid "Failed to Load Calendar Data"
+msgstr ""
+
+#: mixins/EventService:43
+msgid "Failed to Load Event"
+msgstr ""
+
+msgid "Failed to Load Job Board"
+msgstr ""
+
+#: mixins/EventService:66
+msgid "Failed to Save Event"
+msgstr ""
+
+#: mixins/EventService:82
+msgid "Failed to Delete Event"
+msgstr ""
+
+#: mixins/EventService:99
+msgid "Failed to Copy Event"
+msgstr ""
+
+#: mixins/EventService:116
+msgid "Failed to Email Coworkers"
+msgstr ""
+
+#: mixins/LoginService:139
+msgid "Failed to authenticate user"
+msgstr ""
+
+#: mixins/SearchService:50
+msgid "Failed to Search Events"
+msgstr ""
+
+#: stores/MessageStore:98
+msgid "You Have Been Logged Out"
+msgstr ""
+
+#: views/CalendarView:445
+msgid "Today"
+msgstr ""
+
+#: views/DashboardView:355 views/SearchView:307
+msgid "Go To Event"
+msgstr ""
+
+#: views/DashboardView:371
+msgid "Search Confirmed"
+msgstr ""
+
+#: views/DashboardView:373
+msgid "Search Held"
+msgstr ""
+
+#: views/DashboardView:375
+msgid "Search Leads"
+msgstr ""
+
+#: views/DashboardView:393
+msgid "Go to Tip"
+msgstr ""
+
+#: views/DashboardView:410
+msgid "Go To Actions"
+msgstr ""
+
+#: views/DashboardView:420
+msgid "Events Pipeline"
+msgstr ""
+
+#: views/DashboardView:432
+msgid "Leads"
+msgstr ""
+
+#: views/DashboardView:436
+msgid "Tip of the Day"
+msgstr ""
+
+#: views/DashboardView:452
+msgid "Recent Activity"
+msgstr ""
+
+#: views/DashboardView:464
+msgid "Upcoming Confirmed"
+msgstr ""
+
+msgid "Job Board"
+msgstr ""
+
+msgid "Leads & Offers"
+msgstr ""
+
+msgid "Confirmed Events"
+msgstr ""
+
+#: views/LoginView:177
+msgid "Email Sent"
+msgstr ""
+
+msgid "Event Deleted"
+msgstr ""
+
+msgid "Event Saved"
+msgstr ""
+
+msgid "Event Copied"
+msgstr ""
+
+msgid "Email(s) Sent"
+msgstr ""
+
+#: views/LoginView:247
+msgid "Forgot Password?"
+msgstr ""
+
+#: views/LoginView:253
+msgid "Need an Account?"
+msgstr ""
+
+msgid "(888) 377-3214"
+msgstr ""
+
+#: views/SearchView:208
+msgid "No Events Found"
+msgstr ""
+
+#: views/SettingsView:164
+msgid "Refresh Data"
+msgstr ""
+
+#: views/SettingsView:171
+msgid "Logout"
+msgstr ""
+
+#: views/SettingsView:190
+msgid "Select"
+msgstr ""
+
+#: views/DetailsView:305
+msgid "Stagetimes"
+msgstr ""
+
+#: views/DetailsView:395
+msgid "Show System Notes"
+msgstr ""
+
+#: views/LibraryView:188
+msgid "Download"
+msgstr ""
+
+#: views/TravelView:120
+msgid "Check-in"
+msgstr ""
+
+#: views/TravelView:125
+msgid "Check-out"
+msgstr ""
+
+#: views/TravelView:120
+msgid "Check-in %1$s"
+msgstr ""
+
+#: views/TravelView:125
+msgid "Check-out %1$s"
+msgstr ""
+
+#: views/TravelView:262
+msgid "Itinerary"
+msgstr ""
+
+msgid "You do not currently have any Travel items."
+msgstr ""
+
+#: views/ContactView:92 views/ProductView:89 views/ServiceView:94
+#: views/StageTimeView:94 views/TodoView:113
+msgid "Are you sure you want to delete this %1$s?"
+msgstr ""
+
+#: views/StageTimeView:94
+msgid "Stagetime"
+msgstr ""
+
+#: views/TodoView:113
+msgid "Complete"
+msgstr ""
+
+msgid "FULL"
+msgstr ""
+
+msgid "unread message"
+msgstr ""
+
+msgid "Waiting on Client"
+msgstr ""
+
+msgid "Waiting on You"
+msgstr ""
+
+msgid "Hired!"
+msgstr ""
+
+msgid "deposit paid"
+msgstr ""
+
+msgid "Deposit Paid"
+msgstr ""
+
+msgid "paid in full"
+msgstr ""
+
+msgid "event completed"
+msgstr ""
+
+msgid "reviewed"
+msgstr ""
+
+msgid "Once you are on the client's shortlist for an engagement, it will appear here and you can work toward an offer."
+msgstr ""
+
+msgid "Jobs with an accepted offer are displayed in your calendar with your other events."
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Job Details"
+msgstr ""
+
+msgid "Please sign in to access your account."
+msgstr ""
+
+msgid "This is a request for proposal from a client. If your skills are a good match, use the Apply Now button below to open a conversation with the client."
+msgstr ""
+
+msgid "Speaking To:"
+msgstr ""
+
+msgid "Budget:"
+msgstr ""
+
+msgid "Event Date:"
+msgstr ""
+
+msgid "Event Type:"
+msgstr ""
+
+msgid "%1$s in %2$s"
+msgstr ""
+
+msgid "Topic:"
+msgstr ""
+
+msgid "Format:"
+msgstr ""
+
+msgid "eSpeakers Marketplace"
+msgstr ""
+
+msgid "This lead came through your Book-Me-Now link, with no finder's fee."
+msgstr ""
+
+msgid 'This job came through the Book Me Now link on your own website and is exclusively for you.'
+msgstr ''
+
+msgid 'This is an open call for speakers. '
+msgstr ''
+
+msgid ' speakers currently under consideration for this job. '
+msgstr ''
+
+msgid ' is on the shortlist for this event'
+msgstr ''
+
+msgid ' along with %1$s other %2$s'
+msgstr ''
+
+msgid 'This is also an open call for speakers. '
+msgstr ''
+
+msgid "Applying to this job opens a conversation with the client, and adds you to their shortlist for the event."
+msgstr ""
+
+msgid "You may apply to up to 3 jobs in a 7-day period, so be picky -- only apply to jobs for which you are an especially good match."
+msgstr ""
+
+msgid "Apply Now"
+msgstr ""
+
+msgid 'The client'
+msgstr ''
+
+msgid "%1$s's meeting goals:"
+msgstr ""
+
+msgid "The %1$s %2$s finder's fee will be deducted from the buyer's deposit payment."
+msgstr ""
+
+msgid "%1$s Finder's Fee"
+msgstr ""
+
+msgid "Offer Pending"
+msgstr ""
+
+msgid 'Waiting for the client to pay the deposit.'
+msgstr ''
+
+msgid "Accepted"
+msgstr ""
+
+msgid "You are waiting for the client to accept your offer or propose a different one."
+msgstr ""
+
+msgid "offer pending"
+msgstr ""
+
+msgid "waiting for client"
+msgstr ""
+
+msgid "client accepts offer"
+msgstr ""
+
+msgid "waiting for you"
+msgstr ""
+
+msgid "you accept offer"
+msgstr ""
+
+msgid "The client is waiting for you to accept their offer or revise it."
+msgstr ""
+
+msgid "Waiting for the client to pay the deposit."
+msgstr ""
+
+msgid "client pays deposit"
+msgstr ""
+
+msgid "On the day of the event, eSpeakers will collect the balance due."
+msgstr ""
+
+msgid "The event is paid in full."
+msgstr ""
+
+msgid "The event is completed. Great job!"
+msgstr ""
+
+msgid "buyer reviews you"
+msgstr ""
+
+msgid "event happens"
+msgstr ""
+
+msgid "balance paid"
+msgstr ""
+
+msgid "Balance Paid"
+msgstr ""
+
+msgid "All Done"
+msgstr ""
+
+msgid "Lead/Offer Details"
+msgstr ""
+
+msgid "offer accepted"
+msgstr ""
+
+msgid "Offer Accepted"
+msgstr ""
+
+msgid "review complete"
+msgstr ""
+
+msgid "Shortlisted"
+msgstr ""
+
+msgid "An offer is a binding contract between you and the buyer for the service you will provide and the payment they will make."
+msgstr ""
+
+msgid "now"
+msgstr ""
+
+msgid "next"
+msgstr ""
+
+msgid "Offer"
+msgstr ""
+
+msgid "Contract"
+msgstr ""
+
+msgid "Client"
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Contracted Speaking Fee"
+msgstr ""
+
+msgid "USD $%1$s"
+msgstr ""
+
+msgid "Payout To You"
+msgstr ""
+
+msgid "Terms"
+msgstr ""
+
+msgid "Ready to make an offer?"
+msgstr ""
+
+msgid "If the client accepts your offer:"
+msgstr ""
+
+msgid "Waiting on the client."
+msgstr ""
+
+msgid "Waiting on you."
+msgstr ""
+
+msgid "If you need longer than 1 business day"
+msgstr ""
+
+msgid "The deal is on!"
+msgstr ""
+
+msgid "You and the buyer have agreed to terms and you are hired. Exceed the client's expectations to earn a great review that turns into more work."
+msgstr ""
+
+msgid "Once you have all the information you need about the work, use the"
+msgstr ""
+
+msgid "make offer"
+msgstr ""
+
+msgid "button to give the client a firm price and to detail what you will provide for them."
+msgstr ""
+
+msgid "It is common to have exchanged messages with the client before making a firm offer."
+msgstr ""
+
+msgid "Accept Client's Offer"
+msgstr ""
+
+msgid "Withdraw Offer"
+msgstr ""
+
+msgid "Withdraw From Job"
+msgstr ""
+
+msgid "Make an Offer"
+msgstr ""
+
+msgid "Revise Offer"
+msgstr ""
+
+msgid "To %1$s, use EventCX on your Computer."
+msgstr ""
+
+msgid "view details"
+msgstr ""
+
+msgid "- the client has not made a payment yet -"
+msgstr ""
+
+msgid "Payments Made By Client"
+msgstr ""
+
+msgid "to you *"
+msgstr ""
+
+msgid "contracted fees"
+msgstr ""
+
+msgid "Payout Details"
+msgstr ""
+
+msgid "speaking fee"
+msgstr ""
+
+msgid "materials / other"
+msgstr ""
+
+msgid "travel"
+msgstr ""
+
+msgid "TOTAL to you *"
+msgstr ""
+
+msgid "* less card processing costs up to 3%."
+msgstr ""
+
+msgid "Messages"
+msgstr ""
+
+msgid "Message %1$s"
+msgstr ""
+
+msgid "Apply to Job"
+msgstr ""
+
+msgid "Start a conversation!"
+msgstr ""
+
+msgid "Give the client a ballpark figure for their needs and ask intelligent questions about their goals."
+msgstr ""
+
+msgid "After this opening response to the client, converse with them in the message area until you are ready to use the MAKE OFFER button in your desktop version of EventCX."
+msgstr ""
+
+msgid "If you are prepared now to make a firm offer, use the make offer button after submitting this form."
+msgstr ""
+
+msgid "What is your normal fee for this type of service?"
+msgstr ""
+
+msgid "What will you do for the buyer at this price?"
+msgstr ""
+
+msgid "example: I will travel to your meeting to deliver a keynote of up to 1 hour. I will also provide a 30 minute webinar before the event, and another webinar after the event to make the message more effective. Flat travel fee not included. etc..."
+msgstr ""
+
+msgid "What else do you need to know about this job to make a firm offer?"
+msgstr ""
+
+msgid "example: What is the main goal of your meeting? Who will be in the audience? Would you like me to provide webinar support before or after? etc..."
+msgstr ""
+
+msgid "Your published fee range is %1$s to %2$s. You can add travel expenses later when you make a firm offer."
+msgstr ""
+
+msgid "Good job!"
+msgstr ""
+
+msgid "You have let the client know you're interested in their work. They will receive your message along with a link to your eSpeakers profile, and they will evaluate you and other candidates to find the right expert for their needs."
+msgstr ""
+
+msgid "Keep an eye on your inbox."
+msgstr ""
+
+msgid "You may hear back in the next day with further questions or with an offer from them. It is possible you will not get a response, even though we encourage clients to communicate with all applicants at every decision point."
+msgstr ""
+
+msgid "View in Leads & Offers"
+msgstr ""
+
+msgid "Sent to Buyer"
+msgstr ""
+
+msgid "Buyer receives email with your photo and link to your profile."
+msgstr ""
+
+msgid "Failed to mark messages as read"
+msgstr ""
+
+msgid "NEW"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Start a conversation with the client to find out what their needs are. Use the message area."
+msgstr ""
+
+msgid "I agree to the eSpeakers Marketplace Finders Fee"
+msgstr ""
+
+msgid "Once this Marketplace job has an accepted offer, the price and payments will be displayed here."
+msgstr""
+
+msgid "Job"
+msgstr ""

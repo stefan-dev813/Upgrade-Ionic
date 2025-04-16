@@ -1,0 +1,72 @@
+@translucent-opacity: 0.75;
+@opague-opacity: 1.0;
+
+.loading-screen {
+  /*
+    If we make this bottom: 0 we cover up interactive items
+    So only set the bottom when we know the loading screen is active
+    */
+
+  .loading-screen {
+    z-index: @above-header-overlay;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(123, 123, 123, 0.25);
+    opacity: @translucent-opacity;
+
+    .spinner-container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      text-align: center;
+      transform: translateX(-20px) translateY(-20px);
+      background-color: rgba(123, 123, 123, 0.25);
+      border-radius: 50%;
+      padding: 5px;
+      color: @espeakers-blue-4;
+      font-size: 1.5em;
+    }
+  }
+
+  .loading-screen.loading-screen-enter {
+    opacity: 0.1;
+  }
+
+  .loading-screen.loading-screen-enter.loading-screen-enter-active {
+    opacity: @opague-opacity;
+    transition: opacity 250ms ease-in;
+  }
+
+  .loading-screen.loading-screen-enter.loading-screen-enter-active.translucent {
+    opacity: @translucent-opacity;
+  }
+
+  .loading-screen.loading-screen-leave {
+    opacity: 1;
+  }
+
+  .loading-screen.loading-screen-leave.translucent {
+    opacity: @translucent-opacity;
+  }
+
+  .loading-screen.loading-screen-leave.loading-screen-leave-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+  }
+
+  .loading-screen.loading-screen-apear {
+    opacity: 0.01;
+  }
+
+  .loading-screen.loading-screen-appear.loading-screen-appear-active {
+    opacity: @opague-opacity;
+    transition: opacity 250ms ease-in;
+  }
+
+  .loading-screen.loading-screen-appear.loading-screen-appear-active.translucent {
+    opacity: @translucent-opacity;
+  }
+}

@@ -1,0 +1,179 @@
+@overflow-max-height: 400px;
+
+.mui-btn-group {
+  padding: 10px;
+
+  > div {
+    margin: 5px 0;
+  }
+}
+
+form {
+  .mui-fields {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    > div {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+button.btn-fixed {
+  position: fixed;
+  border-radius: 22px;
+  bottom: calc(65px + env(safe-area-inset-bottom));
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  margin: 0px;
+  font-size: 0.9em;
+  text-align: center;
+  z-index: @above-menu;
+  box-shadow: @box-shadow;
+  border: 0;
+
+  span {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+button.btn-fixed.btn-submit, button.btn-fixed.btn-add {
+  right: 5px;
+  background-color: @espeakers-blue;
+}
+
+button.btn-fixed.btn-discard {
+  left: 5px;
+  background-color: grey;
+}
+
+.actions-overflow {
+  position: fixed;
+  bottom: calc(120px + env(safe-area-inset-bottom));
+  right: 5px;
+  width: auto;
+  color: black;
+  padding: 0 10px;
+  z-index: @above-overlay;
+
+  .icon-label {
+    padding: 5px;
+    margin: 20px 0;
+
+    text-align: right;
+
+    i {
+      margin-left: 10px;
+      float: right;
+      background-color: white;
+      border-radius: 22px;
+      width: 33px;
+      height: 33px;
+      text-align: center;
+      color: grey;
+      box-shadow: @box-shadow;
+      padding-top: 4px;
+      padding-bottom: 4px;
+
+      svg {
+        margin: auto;
+      }
+    }
+
+    span {
+      background-color: black;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      box-shadow: @box-shadow;
+      position: relative;
+      top: 8px;
+    }
+  }
+}
+
+.add-btn-actions.add-btn-actions-enter .actions-overflow {
+  max-height: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.add-btn-actions.add-btn-actions-enter-active .actions-overflow {
+  max-height: @overflow-max-height;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: max-height 250ms ease-in;
+}
+
+.add-btn-actions.add-btn-actions-leave .actions-overflow {
+  max-height: @overflow-max-height;
+  overflow: scroll;
+}
+
+.add-btn-actions.add-btn-actions-leave-active .actions-overflow {
+  max-height: 0;
+  transition: max-height 250ms ease-out;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.add-btn-actions.add-btn-actions-enter span svg {
+  display: inline-block;
+  transform: rotate(0);
+}
+
+.add-btn-actions.add-btn-actions-enter-active span svg {
+  display: inline-block;
+  transform: rotate(0.62turn);
+  transition: transform 250ms ease-in;
+}
+
+.add-btn-actions.add-btn-actions-leave span svg {
+  display: inline-block;
+  transform: rotate(0.62turn);
+}
+
+.add-btn-actions.add-btn-actions-leave-active span svg {
+  display: inline-block;
+  transform: rotate(0);
+  transition: transform 250ms ease-out;
+}
+
+.advanced-link {
+  clear: both;
+  padding: 10px;
+
+  .advanced-options.advanced-options-enter {
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .advanced-options.advanced-options-enter-active {
+    max-height: 500px;
+    transition: max-height 250ms ease-in;
+    overflow: hidden;
+  }
+
+  .advanced-options.advanced-options-leave {
+    max-height: 500px;
+    overflow: scroll;
+  }
+
+  .advanced-options.advanced-options-leave-active {
+    max-height: 0;
+    transition: max-height 250ms ease-out;
+    overflow: hidden;
+  }
+}
+
+.track-my-packages {
+  padding-top: 10px;
+  padding-left: 20px;
+}

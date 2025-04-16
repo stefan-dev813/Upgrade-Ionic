@@ -1,0 +1,115 @@
+.list-item {
+  min-height: 40px;
+}
+
+.secondary-text {
+  color: rgba(0, 0, 0, 0.54);
+  padding: 4px 0;
+  margin: 4px 0;
+  font-size: small;
+
+  .first {
+    color: rgba(0, 0, 0, 0.870588);
+  }
+}
+
+.status-image {
+  color: #FFF;
+  background-color: grey;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  text-align: center;
+  border-radius: 20px;
+  float: left !important;
+
+  .group-code, .qty {
+    line-height: 40px;
+  }
+
+  .group-code {
+    // They wanted them all the same size, regardless of string length
+    font-size: 5pt;
+  }
+
+  //.group-code.length-3 {
+  //  font-size: 10pt;
+  //}
+  //
+  //.group-code.length-4 {
+  //  font-size: 8pt;
+  //}
+  //
+  //.group-code.length-5 {
+  //  font-size: 6pt;
+  //}
+  //
+  //.group-code.length-6 {
+  //  font-size: 5pt;
+  //}
+}
+
+.status-image.confirmed {
+  background-color: @confirmed-green;
+}
+
+.status-image.lead, .status-image.leads {
+  background-color: @lead-blue;
+}
+
+.status-image.held, .status-image.warning {
+  background-color: @held-yellow;
+}
+
+.status-image.overdue, .status-image.error {
+  background-color: @overdue-red;
+}
+
+.status-image.user {
+  background-color: lightgrey;
+}
+
+.status-image.file {
+  border: 2px solid grey;
+  background-color: white;
+  color: black;
+}
+
+.card-details {
+  margin-left: 50px;
+
+  div {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .heading {
+    font-size: 1em;
+  }
+
+  .sub-heading {
+    color: #777;
+    font-size: 0.9em;
+  }
+
+  .sub-heading.sub-heading-two {
+    font-size: 0.75em;
+  }
+
+  .message {
+    white-space: normal;
+  }
+
+}
+
+.list-item.todo-list-item.confirmed {
+  background-color: @success;
+}
+
+.list-item.todo-list-item.overdue {
+  background-color: @danger;
+}

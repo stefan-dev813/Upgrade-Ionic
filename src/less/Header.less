@@ -1,0 +1,124 @@
+@overflow-max-height: 400px;
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: @espeakers-blue;
+  color: white;
+  box-shadow: @box-shadow;
+  //padding: 10px 0 10px 0;
+  z-index: @above-overlay;
+
+  .header-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: @above-overlay;
+  }
+
+  .header-overlay.translucent {
+    background-color: rgba(123, 123, 123, 0.25);
+  }
+
+  .header-card {
+    position: absolute;
+    left: 50px;
+    font-size: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 55%;
+
+    .heading {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      text-transform: uppercase;
+      font-size: .9em;
+    }
+
+    .sub-heading {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: .7em;
+      padding-top: 0;
+    }
+  }
+
+  .actions {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+  }
+
+  .actions button, .hamburger button {
+    color: white;
+    margin: 0;
+  }
+
+  .actions-overflow {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: auto;
+    color: black;
+    background-color: white;
+    padding: 0px 10px;
+    z-index: @above-header;
+    box-shadow: @box-shadow;
+
+    .icon-label {
+      margin: 20px 10px;
+    }
+  }
+
+  .actions-overflow.actions-overflow-enter {
+    max-height: 0;
+    max-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .actions-overflow.actions-overflow-enter-active {
+    max-height: @overflow-max-height;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: max-height 250ms ease-in, max-width 250ms ease-in;
+  }
+
+  .actions-overflow.actions-overflow-leave {
+    max-height: @overflow-max-height;
+    max-width: 200px;
+    overflow: scroll;
+  }
+
+  .actions-overflow.actions-overflow-leave-active {
+    max-height: 0;
+    max-width: 0;
+    transition: max-height 250ms ease-out, max-width 250ms ease-out;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .status-image.user {
+    background-color: white;
+    color: black;
+    font-size: 1em; }
+}
+
+
+

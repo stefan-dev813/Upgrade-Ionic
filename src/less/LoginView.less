@@ -1,0 +1,83 @@
+/****************************************** Login Page ******************************/
+
+.login-view {
+  height: 100%;
+
+  .mui-fields {
+    text-align: center;
+
+    > div {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .login-content {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    background-color: white;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    min-height: 252px;
+  }
+
+  .message-section {
+    min-height: 90px;
+  }
+
+  .password-text {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .espeaker-logo {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  .espeaker-logo.main {
+    height: 48px;
+    background: url(../img/logos/main.png) no-repeat center;
+
+  }
+
+  @media (max-width: 320px) {
+    .espeaker-logo.main {
+      height: 33px;
+      background: url(../img/logos/main-small.png) no-repeat center;
+    }
+  }
+
+  .espeaker-logo.st {
+    height: 36px;
+    background: url(../img/logos/st.png) no-repeat center;
+  }
+
+  @media (max-width: 320px) {
+    .espeaker-logo.st {
+      height: 21px;
+      background: url(../img/logos/st-small.png) no-repeat center;
+    }
+  }
+
+    .splash-footer {
+        display: flex;
+        flex: 2;
+        align-content: flex-end;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 5px 15px 5px 15px;
+    }
+}

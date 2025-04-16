@@ -1,0 +1,43 @@
+.message-snack button div span {
+  color: #4289C9;
+}
+
+.message-container {
+  height: 90px;
+  text-align: left;
+
+  div {
+    padding: 5px;
+    padding-left: 15px;
+    box-shadow: 0 1px 0 @espeakers-grey-4;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    color: white;
+
+    .text {
+      padding-left: 10px;
+    }
+  }
+
+  .error {
+    background-color: @espeakers-error;
+  }
+
+  .warning {
+    background-color: @espeakers-warning;
+    //color: @espeakers-grey-4;
+  }
+
+  .info {
+    background-color: @espeakers-info;
+  }
+
+  .success {
+    background-color: @espeakers-success;
+  }
+}
+
+.content > .message-container {
+  padding-top: 25px;
+}

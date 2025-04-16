@@ -1,0 +1,27 @@
+#search-form {
+  .search-area {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    box-shadow: @box-shadow;
+    background-color: white;
+    z-index: @above-forms;
+
+    .search-input {
+      float: left;
+      width: ~"calc(100% - 65px)";
+    }
+
+    .search-btn {
+      float: right;
+      top: 35px;
+      left: -20px;
+      position: relative;
+    }
+  }
+
+  .results-area {
+    padding-top: 30px;
+  }
+}

@@ -1,0 +1,141 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Roboto;
+  //background-size: cover;
+  //background-repeat: no-repeat;
+  //background-position-x: center;
+  //background: url(../img/tablet/screen-tablet-portrait.png);
+  background-color: #ededed;
+  //background-attachment: fixed;
+  font-size: 16px;
+  color: #6e6e6e;
+  -webkit-font-smoothing: antialiased;
+  ///* Status bar height on iOS 11.0 */
+  padding: constant(safe-area-inset-top) constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left);
+  ///* Status bar height on iOS 11+ */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+//@media (max-width: 640px) {
+//  body {
+//    background: url(../img/phone/screen-phone-portrait-640.png);
+//  }
+//}
+//
+//@media (max-width: 480px) {
+//  body {
+//    background: url(../img/phone/screen-phone-portrait-480.png);
+//  }
+//}
+//
+//@media (max-width: 320px) {
+//  body {
+//    background: url(../img/phone/screen-phone-portrait-320.png);
+//  }
+//}
+//
+//@media (max-width: 200px) {
+//  body {
+//    background: url(../img/phone/screen-phone-portrait-200.png);
+//  }
+//}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+@import './less/Variables';
+//@import './less/font-awesome';
+@import './less/ColorPalette';
+
+#espeakers-mobile {
+
+  height: 100vh;
+
+  @import './less/TabletLayout';
+  @import './less/Messages';
+  @import './less/Forms';
+  @import './less/ListView';
+  @import './less/DashboardView';
+  @import './less/LoadingScreen';
+  @import './less/LoginView';
+  @import './less/SettingsView';
+  @import './less/SearchForm';
+  @import './less/SearchView';
+  @import './less/Drawer';
+  @import './less/Header';
+  @import './less/Footer';
+  @import './less/StaticView';
+
+  a {
+    color: @espeakers-blue;
+    text-decoration: none;
+  }
+
+  li, .icon-label {
+    i + span {
+      margin-left: 10px;
+    }
+  }
+
+  .splash-screen, .login-splash {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../img/tablet/screen-tablet-portrait.png) no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: 1;
+  }
+
+  @media (max-width: 640px) {
+    .splash-screen, .login-splash {
+      background: url(../img/phone/screen-phone-portrait-640.png) no-repeat center center fixed;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .splash-screen, .login-splash {
+      background: url(../img/phone/screen-phone-portrait-480.png) no-repeat center center fixed;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .splash-screen, .login-splash {
+      background: url(../img/phone/screen-phone-portrait-320.png) no-repeat center center fixed;
+    }
+  }
+
+  @media (max-width: 200px) {
+    .splash-screen, .login-splash {
+      background: url(../img/phone/screen-phone-portrait-200.png) no-repeat center center fixed;
+    }
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: @above-footer;
+  }
+
+  .overlay.translucent {
+    background-color: rgba(123, 123, 123, 0.25);
+  }
+
+  div.content, div.content form {
+    background-color: #ededed;
+    height: 100%;
+  }
+}
+
+@import './less/CalendarView';

@@ -1,0 +1,88 @@
+.secret-drawer {
+  opacity: 0.0;
+}
+
+.mui-drawer {
+  .header {
+    height: 100px;
+    background-color: @espeakers-blue;
+
+    // .logo {
+    //   background-size: contain;
+    //   background: url('../img/e-logoTransAlpha5.png') no-repeat;
+    //   background-position: center;
+    //   height: 100%;
+    // }
+
+    .drawer-header-card {
+      color: white;
+
+      .card-details .sub-heading {
+        color: white;
+      }
+    }
+  }
+}
+
+.drawer-nav {
+  //display: none;
+  position: fixed;
+  top: 0;
+  left: -270px;
+  bottom: 0;
+  width: 280px;
+  height: 100%;
+  z-index: @above-header-overlay;
+  opacity: 0;
+  background-color: #ededed;
+
+  .header {
+    height: 100px;
+    background-color: @espeakers-blue;
+
+    // .logo {
+    //   background-size: contain;
+    //   background: url('../img/e-logoTransAlpha5.png') no-repeat;
+    //   background-position: center;
+    //   height: 100%;
+    // }
+    
+    ul {
+      padding: 0;
+      margin: 0;
+    }
+    
+    .drawer-header-card {
+      position: relative;
+      top: 20px;
+      left: 10px;
+      color: white;
+      width: ~"calc(100% - 10px)";
+      
+      li {
+        list-style: none;
+      }
+      
+      .card-details .sub-heading {
+        color: white;
+      }
+    }
+  }
+  
+  .nav-items {
+    height: ~"calc(100% - 100px)";
+    overflow: scroll;
+  }
+}
+
+.hider {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: @above-header;
+  background-color: #000000;
+  opacity: 0.4;
+}

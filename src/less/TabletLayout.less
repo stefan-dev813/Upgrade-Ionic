@@ -1,0 +1,42 @@
+@left-width: 35%;
+@right-width: 65%;
+
+.left-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: @right-width;
+  overflow: scroll;
+  border-right: 1px solid rgb(63, 81, 181);
+
+  #search-form .search-area {
+    top: 0;
+    right: @right-width;
+  }
+
+  .search-results {
+    padding-top: 90px;
+  }
+
+  .drawer-nav {
+    left: 0;
+    opacity: 1;
+
+    .nav-items {
+      height: 100%;
+    }
+  }
+}
+
+.right-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: @left-width;
+
+  .app-header {
+    left: @left-width;
+  }
+}
