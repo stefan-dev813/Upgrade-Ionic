@@ -49,12 +49,18 @@ manually setting up and splitting the jobs up:
 
 To run a whitelabel, simply change the `REACT_APP_BUILD` variable in the .env.*.local file.  Valid values are `main` and `st`.
 
-# Deploying / Building #
+<!-- # Deploying / Building #
 
 The best way to build an app is to prepare the folders, then build the app in the appropriate IDE (Android Studio or XCode).
 1. `yarn run prepare:main && yarn run release:ios && yarn run release:android` will copy the eSpeakers logo and release the app to iOS and Android (Preferred method)
 1. Open the IDE (`Android Studio` or `XCode`) and run the app in the emulator to make sure everything runs
 1. Using the IDE, build an APK or iOS Build and upload it to each app store.  Instructions can be found here: 
-https://docs.google.com/document/d/1ftNOXuJaO02Qlv-eTS8GcPEnfTEpsKG3s4zFTE4uA3M/edit#heading=h.tj9ky04sgd9b
+https://docs.google.com/document/d/1ftNOXuJaO02Qlv-eTS8GcPEnfTEpsKG3s4zFTE4uA3M/edit#heading=h.tj9ky04sgd9b 
+-->
+
+# Production #
+https://play.google.com/store/apps/details?id=com.espeakers.eventcx&hl=en_US
+https://apps.apple.com/kg/app/espeakers/id426816714
+
 
 
