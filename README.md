@@ -59,7 +59,7 @@ https://docs.google.com/document/d/1ftNOXuJaO02Qlv-eTS8GcPEnfTEpsKG3s4zFTE4uA3M/
 -->
 
 # Production #
-https://play.google.com/store/apps/details?id=com.espeakers.eventcx&hl=en_US
+https://play.google.com/store/apps/details?id=com.espeakers.eventcx&hl=en_US <br>
 https://apps.apple.com/kg/app/espeakers/id426816714
 
 
